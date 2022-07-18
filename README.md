@@ -26,8 +26,9 @@ add the following line in the __[tool.poetry.dependencies]__ section of __pyproj
 text-normalizer = { git = "ssh://git@github.com/NewSciTLH/text-normalizer.git", branch = "prod" }
 ```
 
-## Build
+## Development
 
+If you want to contribute to this project you will need to use the build process.
 In consideration of [PEP
 517-518](https://snarky.ca/what-the-heck-is-pyproject-toml/) the new python
 packaging library [Poetry](https://python-poetry.org/) is employed in this
