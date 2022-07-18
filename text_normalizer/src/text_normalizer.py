@@ -230,7 +230,7 @@ class TextNormalizer():
             cleaned_text = self.__call__(list(text_input))
         elif (module, name) == ('pandas.core.series', 'Series'):
             cleaned_text = text_input.apply(self.__call__)
-        elif (nodule, name) == ('numpy', 'ndarray'):
+        elif (module, name) == ('numpy', 'ndarray'):
             cleaned_text = self.__call__(text_input.tolist())
         else:
             raise TypeError(f"Input type {type(text_input)} is not currently supported")
