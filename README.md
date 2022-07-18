@@ -73,7 +73,7 @@ norm_text = tn(text)
 text = set(text)
 norm_text = tn(text)
 
-text = pd.Series(text)
+text = pd.Series(list(text))
 norm_text = tn(next)
 ```
 
