@@ -7,7 +7,7 @@ Tool for cleaning and normalizing text for speech related NLP tasks
 ## Installation
 
 ```bash
-python3 -m pip install git+https://github.com/NewSciTLH/text-normalizer
+python3 -m pip install git+https://github.com/NewSciTLH/text-normalizer.git
 ```
 
 ## Build
