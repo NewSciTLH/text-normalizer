@@ -7,7 +7,7 @@ authors = [
 description = "Tool for cleaning and normalizing text for speech related NLP tasks"
 readme = "README.md"
 license = { file="LICENSE" }
-requires-python = ">=3.0, <4.0"
+requires-python = ">=3.8, <4.0"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -37,7 +37,7 @@ authors = ["Call Simulator Labs <labs@callsimulator.com>"]
 license = "BSD-3-Clause"
 
 [tool.poetry.dependencies]
-python = "^3.0"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1"
