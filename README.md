@@ -6,8 +6,24 @@ Tool for cleaning and normalizing text for speech related NLP tasks
 
 ## Installation
 
+To install directly into your current environment use pip
+
 ```bash
 python3 -m pip install git+https://github.com/NewSciTLH/text-normalizer.git
+```
+
+To add text-normalizer as a dependency in other projects:
+
+**setuptools**
+add the following line to a __requirements.txt__ file
+```bash
+git+https://github.com/NewSciTLH/text-normalizer.git
+```
+
+**poetry**
+add the following line in the __[tool.poetry.dependencies]__ section of __pyproject.toml__
+```bash
+text-normalizer = { git = "ssh://git@github.com/NewSciTLH/text-normalizer.git", branch = "prod" }
 ```
 
 ## Build
