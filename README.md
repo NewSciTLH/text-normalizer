@@ -59,6 +59,7 @@ Create an instance of TextNormalizer and then pass it a string.
 
 ```python
 from text_normalizer import TextNormalizer
+import pandas as pd
 
 # Create instance of text normalizer
 tn = TextNormalizer()
@@ -74,7 +75,7 @@ text = set(text)
 norm_text = tn(text)
 
 text = pd.Series(list(text))
-norm_text = tn(next)
+norm_text = tn(text)
 ```
 
 As a further example, run the _main.py_ file.
